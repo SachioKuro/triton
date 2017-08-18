@@ -1,0 +1,13 @@
+[package]
+name = "triton"
+version = "0.1.0"
+authors = ["ShuboshaKuro <Shubosha.Kuro@gmail.com>"]
+
+[dependencies]
+rocket = "0.3.2"
+rocket_codegen = "0.3.2"
+
+[dependencies.rocket_contrib]
+version = "*"
+default-features = false
+features = ["handlebars_templates", "tera_templates"]
